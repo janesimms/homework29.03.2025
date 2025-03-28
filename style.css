@@ -1,0 +1,43 @@
+body{
+    background-image: url("782657.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.div-1{
+    display: flex;
+    gap: 20px;
+}
+.right{
+align-items: center;
+}
+.logo{
+    width:40px ;
+    height:20px ;
+}
+p{
+    color: white;
+}
+h2{
+ color:white ;
+}
+h4{
+ color:white ;
+}
+h1{
+    color: white;
+}
+.btn-1{
+    background-color: green;
+    color: white;
+    border-radius:15px;
+    width: 100px;
+    height: 50px;
+}
+.btn-2{
+    background-color: limegreen;
+    border: 2px solid white;
+    color: white;
+    border-radius:15px;
+    width: 200px;
+    height: 50px;
+}
