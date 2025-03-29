@@ -1,43 +1,85 @@
-body{
-    background-image: url("782657.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+body {
+  background-image: url("782657.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 70%;
+  height: 100vh;
 }
-.div-1{
-    display: flex;
-    gap: 20px;
+.div-1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 20px;
 }
-.right{
-align-items: center;
+.right {
+  align-items: center;
+  display: flex;
+  gap: 20px;
 }
-.logo{
-    width:40px ;
-    height:20px ;
+
+p {
+  color: white;
+  cursor: pointer;
 }
-p{
-    color: white;
+h2 {
+  color: white;
 }
-h2{
- color:white ;
+h4 {
+  color: white;
 }
-h4{
- color:white ;
+h1 {
+  color: white;
 }
-h1{
-    color: white;
+.btn-1 {
+  background-color: green;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.2s;
 }
-.btn-1{
-    background-color: green;
-    color: white;
-    border-radius:15px;
-    width: 100px;
-    height: 50px;
+
+.btn-1:hover {
+  background-color: hsl(120, 100%, 15%);
 }
-.btn-2{
-    background-color: limegreen;
-    border: 2px solid white;
-    color: white;
-    border-radius:15px;
-    width: 200px;
-    height: 50px;
+.btn-2:hover {
+  background-color: white;
+  color: black;
+}
+.btn-2 {
+  border: 2px solid white;
+  color: white;
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.middle {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 250px;
+  margin-left: 80px;
+}
+.fa-brands:hover {
+  color: black;
+  font-size: 25px;
+}
+.fa-brands {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
